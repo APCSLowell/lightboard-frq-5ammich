@@ -39,10 +39,10 @@ public class LightBoard
           counter++;
         }
     }
-    if (lights[row][col] == true && (counter % 2) == 0){
+    if ((lights[row][col] == true) && ((counter % 2) == 0)){
         return false;
     }  
-    else if (lights[row][col] == false && (counter % 3) == 0){
+    else if ((lights[row][col] == false) && ((counter % 3) == 0)){
         return true;
     }
     else{
