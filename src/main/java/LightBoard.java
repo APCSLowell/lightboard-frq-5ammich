@@ -34,7 +34,7 @@ public class LightBoard
     /* to be implemented in part (b) */
 
     int counter = 0;
-    for (int k = 0; k < lights.length(); k++){
+    for (int k = 0; k < lights.length; k++){
         if (lights[k][col] == true){
           counter++;
         }
